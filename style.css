@@ -80,12 +80,10 @@ br {
   margin: 0vh;
   text-align: center;
   padding: 3.07vh;
-  background: #b8dcfc;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-attachment: scroll;
   background-size: cover;
-  background-image: url('https://site.nhd.org/10733515/uploaded/header-background.png');
 }
 #header-title a {
   text-decoration: none;
