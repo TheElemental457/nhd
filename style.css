@@ -1,22 +1,20 @@
 body {
   -ms-overflow-style: none;
   scrollbar-width: none;
+  font-family: 'Inter', sans-serif;
 }
-body::-webkit-scrollbar {
+body::-webkit-scrollbar, *::-webkit-scrollbar {
   display: none;
 }
 * {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-*::-webkit-scrollbar {
-  display: none;
-}
 p {
   margin: 0vh;
   line-height: 215%;
   text-shadow: grey 0vh 0vh 0.01vh;
-  font-family: Impact, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 img, video {
   width: 100%;
@@ -27,15 +25,7 @@ img, video {
   object-fit: fill;
   transition: 1s ease;
 }
-video:hover {
-  -webkit-transform: scale(1.03);
-  -ms-transform: scale(1.03);
-  transform: scale(1.03);
-  transition: 1s ease;
-}
-img:hover {
-  -webkit-transform: scale(1.06);
-  -ms-transform: scale(1.06);
+video:hover, img:hover {
   transform: scale(1.06);
   transition: 1s ease;
 }
@@ -66,7 +56,6 @@ br {
   left: 0vh;
   right: 0vh;
   min-height: 100vh;
-  background-image: url("https://site.nhd.org/10733515/uploaded/Subtle-Light-Tile-Pattern-Vol3.jpg");
 }
 #header-wrapper {
   width: 100%;
@@ -74,7 +63,7 @@ br {
   z-index: 100;
 }
 #header-title {
-  font-family: Impact, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 7vh;
   font-weight: 700;
   margin: 0vh;
@@ -89,7 +78,7 @@ br {
   text-decoration: none;
   color: black;
   text-shadow: 0vh 0vh 2vh #b8dcfc;
-  font-family: Impact, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 #header-title a:hover {
   cursor: pointer;
@@ -105,10 +94,10 @@ br {
   opacity: 1;
   color: black;
   text-align: center;
-  padding: 1.5vh 0vh 1.5vh 0vh;
+  padding: 1.5vh 0;
   text-transform: uppercase;
   font-size: 2.2vh;
-  font-family: Impact, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   line-height: 3vh;
   background: white;
@@ -120,28 +109,25 @@ br {
 }
 #info-wrapper {
   width: 65%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3vh;
-  margin-bottom: 3.25vh;
+  margin: 3vh auto 3.25vh auto;
 }
 #website-info {
   text-align: left;
   font-size: 2.85vh;
-  font-family: Impact, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 #current-link {
   background: #4d4d4d;
   color: #f2f2f2;
 }
 .row > .cell {
-  padding: 0px !important;
+  padding: 0 !important;
 }
 .img-caption {
   text-align: center;
   font-size: 1.75vh;
   font-weight: bold;
-  font-family: Impact, sans-serif;
+  font-family: 'Inter', sans-serif;
   margin-top: 1.3vh;
 }
 .row {
@@ -164,7 +150,7 @@ br {
   font-size: 4vh;
   margin-bottom: 1vh;
   display: block;
-  font-family: Impact, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 .info-border {
   width: 65% !important;
@@ -185,11 +171,11 @@ br {
   border-left: solid 0.35vh gray;
   color: #2184ab;
   text-align: center;
-  font-family: Impact, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 .quote-atr {
   text-align: right;
-  font-family: Impact, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 .false-caption {
   user-select: none;
@@ -197,7 +183,7 @@ br {
   font-size: 1.75vh;
   margin-top: 1.3vh;
   color: transparent;
-  font-family: Impact, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 a[href="/10733515/nuclear-fission"] {
   display: none;
@@ -232,8 +218,7 @@ a[href="/10733515/nuclear-fission"] {
   }
   #info-wrapper {
     width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     padding-left: 1vh;
     padding-right: 1vh;
   }
