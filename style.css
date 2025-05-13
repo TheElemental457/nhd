@@ -9,12 +9,12 @@ body::-webkit-scrollbar, *::-webkit-scrollbar {
 * {
   -ms-overflow-style: none;
   scrollbar-width: none;
+  font-family: 'Inter', sans-serif;
 }
 p {
   margin: 0vh;
   line-height: 215%;
   text-shadow: grey 0vh 0vh 0.01vh;
-  font-family: 'Inter', sans-serif;
 }
 img, video {
   width: 100%;
@@ -63,7 +63,6 @@ br {
   z-index: 100;
 }
 #header-title {
-  font-family: 'Inter', sans-serif;
   font-size: 7vh;
   font-weight: 700;
   margin: 0vh;
@@ -78,7 +77,6 @@ br {
   text-decoration: none;
   color: black;
   text-shadow: 0vh 0vh 2vh #b8dcfc;
-  font-family: 'Inter', sans-serif;
 }
 #header-title a:hover {
   cursor: pointer;
@@ -97,7 +95,6 @@ br {
   padding: 1.5vh 0;
   text-transform: uppercase;
   font-size: 2.2vh;
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
   line-height: 3vh;
   background: white;
@@ -114,7 +111,6 @@ br {
 #website-info {
   text-align: left;
   font-size: 2.85vh;
-  font-family: 'Inter', sans-serif;
 }
 #current-link {
   background: #4d4d4d;
@@ -127,7 +123,6 @@ br {
   text-align: center;
   font-size: 1.75vh;
   font-weight: bold;
-  font-family: 'Inter', sans-serif;
   margin-top: 1.3vh;
 }
 .row {
@@ -150,7 +145,6 @@ br {
   font-size: 4vh;
   margin-bottom: 1vh;
   display: block;
-  font-family: 'Inter', sans-serif;
 }
 .info-border {
   width: 65% !important;
@@ -171,11 +165,9 @@ br {
   border-left: solid 0.35vh gray;
   color: #2184ab;
   text-align: center;
-  font-family: 'Inter', sans-serif;
 }
 .quote-atr {
   text-align: right;
-  font-family: 'Inter', sans-serif;
 }
 .false-caption {
   user-select: none;
@@ -183,12 +175,12 @@ br {
   font-size: 1.75vh;
   margin-top: 1.3vh;
   color: transparent;
-  font-family: 'Inter', sans-serif;
 }
 a[href="/10733515/nuclear-fission"] {
   display: none;
 }
 
+/* Responsive Adjustments */
 @media only screen and (max-width: 1100px) {
   .nav-link {
     width: calc(100% / 3) !important;
@@ -233,13 +225,4 @@ a[href="/10733515/nuclear-fission"] {
   }
   .row > .cell {
     padding-left: 0vh;
-    padding-right: 0vh;
-  }
-}
-@media only screen and (max-width: 350px) {
-  .nav-link {
-    width: 100% !important;
-    border-bottom: 0.2vh solid black;
-    border-right: 0vh solid black;
-  }
-}
+    padding
